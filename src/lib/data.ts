@@ -48,33 +48,27 @@ export const STORY: { time: string; title: string; text: string }[] = [
   {
     time: "19 Desember 2025",
     title: "🌱 The Beginning",
-    text: "Sebuah sapaan sederhana menjadi permulaan dari cerita indah ini. Tak ada yang menyangka obrolan singkat malam itu akan berlanjut sejauh ini.",
-  },
+      },
   {
     time: "03 Januari 2026",
     title: "✨ Our First Meeting",
-    text: "Pertama kali bertatap muka di sebuah kedai kecil, dan merasakan getaran hati yang hangat serta obrolan yang tak ingin cepat selesai.",
-  },
+     },
   {
     time: "07 Juni 2026",
     title: "🌷 Getting Closer",
-    text: "Hari demi hari saling menguatkan, saling mengenal lebih dalam, dan memantapkan keyakinan bahwa ini adalah jalan yang benar.",
-  },
+      },
   {
     time: "05 Juli 2026",
-    title: "🏡 Two Families, One Story",
-    text: "Dua keluarga bertemu, saling mengenal, dan menyatukan doa serta restu untuk langkah ke depan.",
-  },
+    title: "🏡 Two Families, One Story",  
+      },
   {
     time: "17 Agustus 2026",
     title: "💍 We Said Yes",
-    text: "Di hadapan keluarga besar, ikatan janji suci diresmikan. Doa restu mengalir dari orang-orang tercinta.",
-  },
+      },
   {
     time: "8 November 2026",
     title: "🤍 Our Forever Begins",
-    text: "Hari ketika cinta kami disatukan dalam ikrar untuk selamanya. Kehadiran dan doa Anda adalah hadiah terindah.",
-  },
+      },
 ];
 
 export const BANKS: {
