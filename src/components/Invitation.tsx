@@ -519,9 +519,6 @@ export default function Invitation({ guestName, initialVisits }: Props) {
               <h3 className="font-greatvibes text-5xl text-sage-800">
                 Lisa &amp; Ilham
               </h3>
-              <p className="mx-auto mt-2 max-w-xs text-xs text-sage-600 italic">
-                Setiap langkah kecil membawa kami sampai di titik ini.
-              </p>
             </div>
           </Reveal>
           <div className="timeline mx-auto max-w-md">
@@ -532,12 +529,9 @@ export default function Invitation({ guestName, initialVisits }: Props) {
                     <time className="text-[10px] font-bold tracking-[0.12em] text-sage-600 uppercase">
                       {item.time}
                     </time>
-                    <h4 className="font-cormorant mt-1 mb-1.5 text-xl font-semibold text-sage-800 italic">
+                    <h4 className="font-cormorant mt-1 text-xl font-semibold text-sage-800 italic">
                       {item.title}
                     </h4>
-                    <p className="text-xs leading-relaxed text-sage-600">
-                      {item.text}
-                    </p>
                   </div>
                 </article>
               </Reveal>
@@ -600,7 +594,7 @@ export default function Invitation({ guestName, initialVisits }: Props) {
           <p className="text-[10px] tracking-[3px] text-sage-100/80 uppercase">
             Dengan penuh cinta dan kebahagiaan
           </p>
-          <p className="font-cormorant mt-2 text-xl italic text-sage-50">
+          <p className="font-cormorant mt-3 text-3xl italic text-ivory">
             {WEDDING.brideShort} &amp; {WEDDING.groomShort} ♡
           </p>
           <p className="mt-5 flex items-center justify-center gap-1.5 text-[10px] text-sage-100/60">
