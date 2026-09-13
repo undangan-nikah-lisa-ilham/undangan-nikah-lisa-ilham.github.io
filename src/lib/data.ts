@@ -44,31 +44,13 @@ export const GALLERY: { src: string; caption: string }[] = [
   { src: img("Galeri 4.webp"), caption: "Menuju hari bahagia" },
 ];
 
-export const STORY: { time: string; title: string; text: string }[] = [
-  {
-    time: "19 Desember 2025",
-    title: "🌱 The Beginning",
-      },
-  {
-    time: "03 Januari 2026",
-    title: "✨ Our First Meeting",
-     },
-  {
-    time: "07 Juni 2026",
-    title: "🌷 Getting Closer",
-      },
-  {
-    time: "05 Juli 2026",
-    title: "🏡 Two Families, One Story",  
-      },
-  {
-    time: "17 Agustus 2026",
-    title: "💍 We Said Yes",
-      },
-  {
-    time: "8 November 2026",
-    title: "🤍 Our Forever Begins",
-      },
+export const STORY: { time: string; title: string }[] = [
+  { time: "19 Desember 2025", title: "🌱 The Beginning" },
+  { time: "03 Januari 2026", title: "✨ Our First Meeting" },
+  { time: "07 Juni 2026", title: "🌷 Getting Closer" },
+  { time: "05 Juli 2026", title: "🏡 Two Families, One Story" },
+  { time: "17 Agustus 2026", title: "💍 We Said Yes" },
+  { time: "8 November 2026", title: "🤍 Our Forever Begins" },
 ];
 
 export const BANKS: {
