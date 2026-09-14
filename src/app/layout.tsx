@@ -2,7 +2,8 @@ import type { Metadata, Viewport } from "next";
 import type { ReactNode } from "react";
 import "./globals.css";
 import SmoothScroll from "@/components/SmoothScroll";
-import { WEDDING } from "@/lib/data";
+
+const SITE_URL = "https://undangan-nikah-lisa-ilham.github.io";
 
 export const metadata: Metadata = {
   title: "The Wedding of Lisa & Ilham",
@@ -12,7 +13,22 @@ export const metadata: Metadata = {
     title: "The Wedding of Lisa & Ilham",
     description: "Minggu, 8 November 2026 — Kasembon, Malang",
     type: "website",
-    images: [{ url: WEDDING.coverPhoto, alt: "Lisa dan Ilham" }],
+    url: SITE_URL,
+    siteName: "The Wedding of Lisa & Ilham",
+    images: [
+      {
+        url: `${SITE_URL}/images/preview.jpg`,
+        width: 1200,
+        height: 630,
+        alt: "Lisa dan Ilham",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "The Wedding of Lisa & Ilham",
+    description: "Minggu, 8 November 2026 — Kasembon, Malang",
+    images: [`${SITE_URL}/images/preview.jpg`],
   },
 };
 
@@ -38,8 +54,8 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           rel="preconnect"
           href="https://undangan-online-2b663-default-rtdb.firebaseio.com"
         />
-        <link rel="preload" as="image" href={WEDDING.coverPhoto} />
-        <link rel="preload" as="image" href={WEDDING.heroPhoto} />
+        <link rel="preload" as="image" href="/images/Cover.webp" />
+        <link rel="preload" as="image" href="/images/Hero.webp" />
         <link
           href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Playfair+Display:wght@400;600;700&family=Great+Vibes&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap"
           rel="stylesheet"
