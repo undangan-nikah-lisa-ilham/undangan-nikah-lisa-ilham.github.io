@@ -11,7 +11,7 @@ export const WEDDING = {
     photo: img("Mempelai Wanita (The Bride) Foto Lisa Fitri Anggraeni.webp"),
   },
   groom: {
-    name: "Moh. Ilham Al Ubaidah, A.P.Kom., S.Log",
+    name: "Moh. Ilham Al Ubaidah, S.Log",
     parents: "Bapak Mustakim & Ibu Paisih",
     order: "Putra kedua dari",
     instagram: "danteaja2025",
